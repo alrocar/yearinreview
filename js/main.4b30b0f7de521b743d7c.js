@@ -1899,7 +1899,7 @@ if (queryString.length > 1) {
                     this.c.touchEnabled ? document.documentElement.classList.add("touch-enabled") : document.documentElement.classList.add("enable-cursor"),
                     this.assetList = fe,
                     this.assetList.intro = ["ok.png"],
-                    this.assetList.end = [""],
+                    this.assetList.end = ["wave.mp4"],
                     this.assetData = be,
                     this.timelineEntered = !1,
                     this.activeMonth = "intro",
