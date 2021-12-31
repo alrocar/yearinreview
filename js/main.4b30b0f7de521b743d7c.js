@@ -2372,11 +2372,6 @@ if (queryString.length > 1) {
                         y: .5 * -this.mousePerspective.x,
                         ease: "Power4.easeOut"
                     }),
-                    "end" === this.activeMonth && J.a.to(this.sections.end.arrow.rotation, 4, {
-                        x: -1.5 + .2 * this.mousePerspective.y,
-                        y: .8 * this.mousePerspective.x,
-                        ease: "Power4.easeOut"
-                    }),
                     this.updatingPerspective = !1
                 }
             }, {
