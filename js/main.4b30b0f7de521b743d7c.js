@@ -984,13 +984,7 @@ if (queryString.length > 1) {
                 key: "addIntroBadge",
                 value: function() {
                     this.badge = new G.a;
-                    var e = new Z.a().load("images/highlights.png");
-                    e.magFilter = e.minFilter = te.M;
-                    var t = new X.a({
-                        map: e,
-                        transparent: !0
-                    })
-                      , o = new q.b(1,1);
+                    var o = new q.b(1,1);
                     this.circle = new V.a(o,t),
                     this.circle.scale.set(200, 200, 1),
                     this.badge.add(this.circle);
@@ -2358,7 +2352,7 @@ if (queryString.length > 1) {
                     this.mouse.y = 2 * -(t.clientY / this.renderer.domElement.clientHeight) + 1,
                     this.raycaster.setFromCamera(this.mouse, this.camera),
                     !this.contactSection.isOpen && !this.itemOpen && !this.c.holdingMouseDown && ("end" === this.activeMonth ? (this.intersects = [],
-                    this.whooshIntersects = this.raycaster.intersectObjects(this.sections.end.whoosh.children),
+                    this.whooshIntersects = !1,
                     0 < this.whooshIntersects.length ? (this.dom.cursor.dataset.cursor = "none",
                     this.hoveringWhoosh = !0,
                     this.sections.end.arrowTween.timeScale(2)) : this.hoveringWhoosh && (this.dom.cursor.dataset.cursor = "pointer",
@@ -2463,13 +2457,7 @@ if (queryString.length > 1) {
                             stroke: "#".concat(o),
                             ease: "Power4.easeOut"
                         }),
-                        document.querySelector("meta[name=theme-color]").setAttribute("content", "#" + i.getHexString()),
-                        "end" !== this.activeMonth || this.sections.end.arrowTween ? this.sections.end.arrowTween && (this.sections.end.arrowTween = !1) : this.sections.end.arrowTween = J.a.to(this.sections.end.arrow.position, 1, {
-                            z: 0,
-                            repeat: -1,
-                            yoyo: !0,
-                            ease: "Power2.easeInOut"
-                        })
+                        document.querySelector("meta[name=theme-color]").setAttribute("content", "#" + i.getHexString())
                     }
                 }
             }, {
