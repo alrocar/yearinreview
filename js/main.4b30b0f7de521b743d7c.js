@@ -1233,173 +1233,173 @@ if (queryString.length > 1) {
             // nov: ["DSC08088.jpg"],
             // dec: ["comp_1.mp4 (1).mp4"]
             oct:
-                [ '2021-10-01_alrocar_1444040599162826752.png',
-                  '2021-10-01_alrocar_1454354085247868929.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/oct/2021-10-01_alrocar_1444040599162826752.png',
+                  'https://alrocar.github.io/yearinreview/assets/oct/2021-10-01_alrocar_1454354085247868929.png' ],
                nov:
-                [ '2021-11-01_alrocar_1454996134959751169.png',
-                  '2021-11-01_alrocar_1464236697546371077.png',
-                  '2021-11-01_alrocar_1465811132954800131.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/nov/2021-11-01_alrocar_1454996134959751169.png',
+                  'https://alrocar.github.io/yearinreview/assets/nov/2021-11-01_alrocar_1464236697546371077.png',
+                  'https://alrocar.github.io/yearinreview/assets/nov/2021-11-01_alrocar_1465811132954800131.png' ],
                dec:
-                [ '2021-12-01_alrocar_1474370571936972806.png',
-                  '2021-12-01_alrocar_1473026963157757955.png',
-                  '2021-12-01_alrocar_1468670614227533824.png',
-                  '2021-12-01_alrocar_1470814977690943495.png',
-                  '2021-12-01_alrocar_1453519496761823240.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1474370571936972806.png',
+                  'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1473026963157757955.png',
+                  'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1468670614227533824.png',
+                  'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1470814977690943495.png',
+                  'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1453519496761823240.png' ],
                jan:
-                [ '2021-01-01_alrocar_1353451508000583681.png',
-                  '2021-01-01_alrocar_1354118872723578881.png',
-                  '2021-01-01_alrocar_1344819342731575297.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/jan/2021-01-01_alrocar_1353451508000583681.png',
+                  'https://alrocar.github.io/yearinreview/assets/jan/2021-01-01_alrocar_1354118872723578881.png',
+                  'https://alrocar.github.io/yearinreview/assets/jan/2021-01-01_alrocar_1344819342731575297.png' ],
                feb:
-                [ '2021-02-01_alrocar_1361673237206355969.png',
-                  '2021-02-01_alrocar_1362039035070455810.png',
-                  '2021-02-01_alrocar_1356866213016571905.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/feb/2021-02-01_alrocar_1361673237206355969.png',
+                  'https://alrocar.github.io/yearinreview/assets/feb/2021-02-01_alrocar_1362039035070455810.png',
+                  'https://alrocar.github.io/yearinreview/assets/feb/2021-02-01_alrocar_1356866213016571905.png' ],
                mar:
-                [ '2021-03-01_alrocar_1370463580420722688.png',
-                  '2021-03-01_alrocar_1366360260592689156.png',
-                  '2021-03-01_alrocar_1370955195643928577.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/mar/2021-03-01_alrocar_1370463580420722688.png',
+                  'https://alrocar.github.io/yearinreview/assets/mar/2021-03-01_alrocar_1366360260592689156.png',
+                  'https://alrocar.github.io/yearinreview/assets/mar/2021-03-01_alrocar_1370955195643928577.png' ],
                apr:
-                [ '2021-04-01_alrocar_1379380630815932424.png',
-                  '2021-04-01_alrocar_1380149357496918020.png',
-                  '2021-04-01_alrocar_1388121095597854725.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/apr/2021-04-01_alrocar_1379380630815932424.png',
+                  'https://alrocar.github.io/yearinreview/assets/apr/2021-04-01_alrocar_1380149357496918020.png',
+                  'https://alrocar.github.io/yearinreview/assets/apr/2021-04-01_alrocar_1388121095597854725.png' ],
                may:
-                [ '2021-05-01_alrocar_1390599855236689920.png',
-                  '2021-05-01_alrocar_1393233036901289990.png',
-                  '2021-05-01_alrocar_1397656482020216832.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/may/2021-05-01_alrocar_1390599855236689920.png',
+                  'https://alrocar.github.io/yearinreview/assets/may/2021-05-01_alrocar_1393233036901289990.png',
+                  'https://alrocar.github.io/yearinreview/assets/may/2021-05-01_alrocar_1397656482020216832.png' ],
                jun:
-                [ '2021-06-01_alrocar_1408089176017453059.png',
-                  '2021-06-01_alrocar_1408097531725332482.png',
-                  '2021-06-01_alrocar_1407900623622873091.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/jun/2021-06-01_alrocar_1408089176017453059.png',
+                  'https://alrocar.github.io/yearinreview/assets/jun/2021-06-01_alrocar_1408097531725332482.png',
+                  'https://alrocar.github.io/yearinreview/assets/jun/2021-06-01_alrocar_1407900623622873091.png' ],
                jul:
-                [ '2021-07-01_alrocar_1412865136394657794.png',
-                  '2021-07-01_alrocar_1415811076088680451.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/jul/2021-07-01_alrocar_1412865136394657794.png',
+                  'https://alrocar.github.io/yearinreview/assets/jul/2021-07-01_alrocar_1415811076088680451.png' ],
                aug:
-                [ '2021-08-01_alrocar_1427559310721179665.png',
-                  '2021-08-01_alrocar_1427925790264635393.png',
-                  '2021-08-01_alrocar_1422681013176651787.png' ],
+                [ 'https://alrocar.github.io/yearinreview/assets/aug/2021-08-01_alrocar_1427559310721179665.png',
+                  'https://alrocar.github.io/yearinreview/assets/aug/2021-08-01_alrocar_1427925790264635393.png',
+                  'https://alrocar.github.io/yearinreview/assets/aug/2021-08-01_alrocar_1422681013176651787.png' ],
                sep:
-                [ '2021-09-01_alrocar_1440755059508146183.png',
-                  '2021-09-01_alrocar_1437518532653236225.png',
-                  '2021-09-01_alrocar_1441769267909697539.png' ]
+                [ 'https://alrocar.github.io/yearinreview/assets/sep/2021-09-01_alrocar_1440755059508146183.png',
+                  'https://alrocar.github.io/yearinreview/assets/sep/2021-09-01_alrocar_1437518532653236225.png',
+                  'https://alrocar.github.io/yearinreview/assets/sep/2021-09-01_alrocar_1441769267909697539.png' ]
         }
           , be = {
             oct:
-   { '2021-10-01_alrocar_1444040599162826752.png':
+   { 'https://alrocar.github.io/yearinreview/assets/oct/2021-10-01_alrocar_1444040599162826752.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1444040599162826752' },
-     '2021-10-01_alrocar_1454354085247868929.png':
+     'https://alrocar.github.io/yearinreview/assets/oct/2021-10-01_alrocar_1454354085247868929.png':
       { caption: 'Your Top Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1454354085247868929' } },
   nov:
-   { '2021-11-01_alrocar_1454996134959751169.png':
+   { 'https://alrocar.github.io/yearinreview/assets/nov/2021-11-01_alrocar_1454996134959751169.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1454996134959751169' },
-     '2021-11-01_alrocar_1464236697546371077.png':
+     'https://alrocar.github.io/yearinreview/assets/nov/2021-11-01_alrocar_1464236697546371077.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1464236697546371077' },
-     '2021-11-01_alrocar_1465811132954800131.png':
+     'https://alrocar.github.io/yearinreview/assets/nov/2021-11-01_alrocar_1465811132954800131.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1465811132954800131' } },
   dec:
-   { '2021-12-01_alrocar_1474370571936972806.png':
+   { 'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1474370571936972806.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1474370571936972806' },
-     '2021-12-01_alrocar_1473026963157757955.png':
+     'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1473026963157757955.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1473026963157757955' },
-     '2021-12-01_alrocar_1468670614227533824.png':
+     'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1468670614227533824.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1468670614227533824' },
-     '2021-12-01_alrocar_1470814977690943495.png':
+     'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1470814977690943495.png':
       { caption: 'Your Top Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1470814977690943495' },
-     '2021-12-01_alrocar_1453519496761823240.png':
+     'https://alrocar.github.io/yearinreview/assets/dec/2021-12-01_alrocar_1453519496761823240.png':
       { caption: 'Your Top Quoted Tweet',
         link: 'https://twitter.com/alrocar/status/1453519496761823240' } },
   jan:
-   { '2021-01-01_alrocar_1353451508000583681.png':
+   { 'https://alrocar.github.io/yearinreview/assets/jan/2021-01-01_alrocar_1353451508000583681.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1353451508000583681' },
-     '2021-01-01_alrocar_1354118872723578881.png':
+     'https://alrocar.github.io/yearinreview/assets/jan/2021-01-01_alrocar_1354118872723578881.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1354118872723578881' },
-     '2021-01-01_alrocar_1344819342731575297.png':
+     'https://alrocar.github.io/yearinreview/assets/jan/2021-01-01_alrocar_1344819342731575297.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1344819342731575297' } },
   feb:
-   { '2021-02-01_alrocar_1361673237206355969.png':
+   { 'https://alrocar.github.io/yearinreview/assets/feb/2021-02-01_alrocar_1361673237206355969.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1361673237206355969' },
-     '2021-02-01_alrocar_1362039035070455810.png':
+     'https://alrocar.github.io/yearinreview/assets/feb/2021-02-01_alrocar_1362039035070455810.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1362039035070455810' },
-     '2021-02-01_alrocar_1356866213016571905.png':
+     'https://alrocar.github.io/yearinreview/assets/feb/2021-02-01_alrocar_1356866213016571905.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1356866213016571905' } },
   mar:
-   { '2021-03-01_alrocar_1370463580420722688.png':
+   { 'https://alrocar.github.io/yearinreview/assets/mar/2021-03-01_alrocar_1370463580420722688.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1370463580420722688' },
-     '2021-03-01_alrocar_1366360260592689156.png':
+     'https://alrocar.github.io/yearinreview/assets/mar/2021-03-01_alrocar_1366360260592689156.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1366360260592689156' },
-     '2021-03-01_alrocar_1370955195643928577.png':
+     'https://alrocar.github.io/yearinreview/assets/mar/2021-03-01_alrocar_1370955195643928577.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1370955195643928577' } },
   apr:
-   { '2021-04-01_alrocar_1379380630815932424.png':
+   { 'https://alrocar.github.io/yearinreview/assets/apr/2021-04-01_alrocar_1379380630815932424.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1379380630815932424' },
-     '2021-04-01_alrocar_1380149357496918020.png':
+     'https://alrocar.github.io/yearinreview/assets/apr/2021-04-01_alrocar_1380149357496918020.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1380149357496918020' },
-     '2021-04-01_alrocar_1388121095597854725.png':
+     'https://alrocar.github.io/yearinreview/assets/apr/2021-04-01_alrocar_1388121095597854725.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1388121095597854725' } },
   may:
-   { '2021-05-01_alrocar_1390599855236689920.png':
+   { 'https://alrocar.github.io/yearinreview/assets/may/2021-05-01_alrocar_1390599855236689920.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1390599855236689920' },
-     '2021-05-01_alrocar_1393233036901289990.png':
+     'https://alrocar.github.io/yearinreview/assets/may/2021-05-01_alrocar_1393233036901289990.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1393233036901289990' },
-     '2021-05-01_alrocar_1397656482020216832.png':
+     'https://alrocar.github.io/yearinreview/assets/may/2021-05-01_alrocar_1397656482020216832.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1397656482020216832' } },
   jun:
-   { '2021-06-01_alrocar_1408089176017453059.png':
+   { 'https://alrocar.github.io/yearinreview/assets/jun/2021-06-01_alrocar_1408089176017453059.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1408089176017453059' },
-     '2021-06-01_alrocar_1408097531725332482.png':
+     'https://alrocar.github.io/yearinreview/assets/jun/2021-06-01_alrocar_1408097531725332482.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1408097531725332482' },
-     '2021-06-01_alrocar_1407900623622873091.png':
+     'https://alrocar.github.io/yearinreview/assets/jun/2021-06-01_alrocar_1407900623622873091.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1407900623622873091' } },
   jul:
-   { '2021-07-01_alrocar_1412865136394657794.png':
+   { 'https://alrocar.github.io/yearinreview/assets/jul/2021-07-01_alrocar_1412865136394657794.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1412865136394657794' },
-     '2021-07-01_alrocar_1415811076088680451.png':
+     'https://alrocar.github.io/yearinreview/assets/jul/2021-07-01_alrocar_1415811076088680451.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1415811076088680451' } },
   aug:
-   { '2021-08-01_alrocar_1427559310721179665.png':
+   { 'https://alrocar.github.io/yearinreview/assets/aug/2021-08-01_alrocar_1427559310721179665.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1427559310721179665' },
-     '2021-08-01_alrocar_1427925790264635393.png':
+     'https://alrocar.github.io/yearinreview/assets/aug/2021-08-01_alrocar_1427925790264635393.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1427925790264635393' },
-     '2021-08-01_alrocar_1422681013176651787.png':
+     'https://alrocar.github.io/yearinreview/assets/aug/2021-08-01_alrocar_1422681013176651787.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1422681013176651787' } },
   sep:
-   { '2021-09-01_alrocar_1440755059508146183.png':
+   { 'https://alrocar.github.io/yearinreview/assets/sep/2021-09-01_alrocar_1440755059508146183.png':
       { caption: 'Your Most Liked and Retweeted Tweet',
         link: 'https://twitter.com/alrocar/status/1440755059508146183' },
-     '2021-09-01_alrocar_1437518532653236225.png':
+     'https://alrocar.github.io/yearinreview/assets/sep/2021-09-01_alrocar_1437518532653236225.png':
       { caption: 'Your Top Mention',
         link: 'https://twitter.com/alrocar/status/1437518532653236225' },
-     '2021-09-01_alrocar_1441769267909697539.png':
+     'https://alrocar.github.io/yearinreview/assets/sep/2021-09-01_alrocar_1441769267909697539.png':
       { caption: 'Your Top Favorited Tweet',
         link: 'https://twitter.com/alrocar/status/1441769267909697539' } }
             // jan: {
@@ -1899,7 +1899,7 @@ if (queryString.length > 1) {
                     this.c.touchEnabled ? document.documentElement.classList.add("touch-enabled") : document.documentElement.classList.add("enable-cursor"),
                     this.assetList = fe,
                     this.assetList.intro = ["ok.png"],
-                    this.assetList.end = ["wave.mp4"],
+                    this.assetList.end = [""],
                     this.assetData = be,
                     this.timelineEntered = !1,
                     this.activeMonth = "intro",
