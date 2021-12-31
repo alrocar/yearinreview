@@ -2451,8 +2451,9 @@ if (queryString.length > 1) {
                         J.a.to([this.dom.cursorSvgs, this.dom.compassSvg], 1, {
                             stroke: "#".concat(o),
                             ease: "Power4.easeOut"
-                        }),
-                        document.querySelector("meta[name=theme-color]").setAttribute("content", "#" + i.getHexString())
+                        })
+                        // ,
+                        // document.querySelector("meta[name=theme-color]").setAttribute("content", "#" + i.getHexString())
                     }
                 }
             }, {
