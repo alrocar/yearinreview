@@ -1,4 +1,4 @@
-window.username = 'alrocar'
+window.username = ''
 let queryString = window.location.href.split('?');
 if (queryString.length > 1) {
     queryString = queryString[1]
@@ -776,7 +776,7 @@ if (queryString.length > 1) {
                 value: function() {
                     if (!this.__text) {
                         this.__text = {}
-                        let url = 'https://api.wadus.tinybird.co/v0/pipes/year_in_review_by_month.json?token=p.eyJ1IjogImMzNzE2ZTEwLTRjODktNGU4Yi1hMDYzLWUyYTJmNTNlZWQzZCIsICJpZCI6ICI2NTVkY2NlOS02ZjhjLTRjY2YtYmNiNC04ZTA0MTk3OWZiOWMifQ.qMabsIM8xCIaVeCt4HFagF1q2bIBeYNMtxwlwXtPPKQ&username=' + window.username || 'alrocar'
+                        let url = 'https://api.wadus.tinybird.co/v0/pipes/year_in_review_by_month.json?token=p.eyJ1IjogImMzNzE2ZTEwLTRjODktNGU4Yi1hMDYzLWUyYTJmNTNlZWQzZCIsICJpZCI6ICI2NTVkY2NlOS02ZjhjLTRjY2YtYmNiNC04ZTA0MTk3OWZiOWMifQ.qMabsIM8xCIaVeCt4HFagF1q2bIBeYNMtxwlwXtPPKQ&username=' + window.username
                         fetch(url).then(res => res.json()).then(json => {
                             const months = {
                                 '01': 'jan',
@@ -1855,13 +1855,31 @@ if (queryString.length > 1) {
         }
           , ve = function() {
             function e() {
-                S(this, e),
-                this.setConfig(),
-                this.init(),
-                window.assets ? (console.log("cached assets"),
-                this.assets = window.assets,
-                this.createTimeline()) : (this.loadAssets(),
-                console.log("reload assets"))
+                S(this, e);
+                if (!window.username) {
+                    // redirect to auth
+                    window.location.replace("https://emojis-wrapped.herokuapp.com");
+                } else {
+                    let url = 'https://api.wadus.tinybird.co/v0/pipes/users_status.json?token=p.eyJ1IjogImMzNzE2ZTEwLTRjODktNGU4Yi1hMDYzLWUyYTJmNTNlZWQzZCIsICJpZCI6ICI2NTVkY2NlOS02ZjhjLTRjY2YtYmNiNC04ZTA0MTk3OWZiOWMifQ.qMabsIM8xCIaVeCt4HFagF1q2bIBeYNMtxwlwXtPPKQ&user_name=' + window.username
+                    fetch(url).then(res => res.json()).then(json => {
+                        if (!json['data'].length) {
+                            // redirect to auth
+                            window.location.replace("https://emojis-wrapped.herokuapp.com");
+                        } else {
+                            if (json['data'][0]['status'] == 'pup') {
+                                // get users data
+                                this.setConfig(),
+                                this.init(),
+                                window.assets ? (console.log("cached assets"),
+                                this.assets = window.assets,
+                                this.createTimeline()) : (this.loadAssets(),
+                                console.log("reload assets"))
+                            } else {
+                                alert('test')
+                            }
+                        }
+                    });
+                }
             }
             var t = Math.atan;
             return M(e, [{
