@@ -2148,12 +2148,17 @@ if (queryString.length > 1) {
                             e.timelineEntered = !0
                             // window.cssRenderer.domElement.style.zIndex   = 10
                         }
-                    }),
-                    this.gyroEnabled && J.a.to(this.dom.compass, 2, {
-                        y: 0,
-                        delay: 1,
-                        ease: "Expo.easeInOut"
                     })
+                    try {
+                        this.gyroEnabled && J.a.to(this.dom.compass, 2, {
+                            y: 0,
+                            delay: 1,
+                            ease: "Expo.easeInOut"
+                        })
+                    } catch (e) {
+                        
+                    }
+                    
                 }
             }, {
                 key: "openItem",
@@ -2581,14 +2586,19 @@ if (queryString.length > 1) {
                     window.addEventListener("resize", this.resize, !1),
                     this.renderer.domElement.addEventListener("mousedown", this.mouseDown, !1),
                     this.renderer.domElement.addEventListener("mouseup", this.mouseUp, !1),
-                    this.renderer.domElement.addEventListener("wheel", this.scroll, !1),
+                    this.renderer.domElement.addEventListener("wheel", this.scroll, !1)
                     // this.cssRenderer.domElement.addEventListener("mousedown", this.mouseDown, !1),
                     // this.cssRenderer.domElement.addEventListener("mouseup", this.mouseUp, !1),
                     // this.cssRenderer.domElement.addEventListener("wheel", this.scroll, !1),
-                    this.gyroEnabled && (this.updateOrientation = this.updateOrientation.bind(this),
-                    this.resetOrientation = this.resetOrientation.bind(this),
-                    window.addEventListener("deviceorientation", this.updateOrientation),
-                    this.dom.compass.addEventListener("click", this.resetOrientation, !1)),
+                    try {
+                        this.gyroEnabled && (this.updateOrientation = this.updateOrientation.bind(this),
+                        this.resetOrientation = this.resetOrientation.bind(this),
+                        window.addEventListener("deviceorientation", this.updateOrientation),
+                        this.dom.compass.addEventListener("click", this.resetOrientation, !1))
+                    } catch(e) {
+
+                    }
+                    
                     this.enableLoader && document.querySelector(".enter").addEventListener("click", this.moveToStart, !1),
                     this.gesture = new K(this.renderer.domElement,{
                         mouseSupport: !1
