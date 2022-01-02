@@ -1843,6 +1843,7 @@ if (queryString.length > 1) {
                     document.querySelector(".signin").style.opacity = 1
                     document.querySelector(".signin").style.transform = "scale(1)"
                 } else {
+                    document.getElementById('tit').innerHTML = `A review of @${window.username} tweets and interactions in Twitter on 2021.`
                     let url = 'https://api.wadus.tinybird.co/v0/pipes/users_status.json?token=p.eyJ1IjogImMzNzE2ZTEwLTRjODktNGU4Yi1hMDYzLWUyYTJmNTNlZWQzZCIsICJpZCI6ICI2NTVkY2NlOS02ZjhjLTRjY2YtYmNiNC04ZTA0MTk3OWZiOWMifQ.qMabsIM8xCIaVeCt4HFagF1q2bIBeYNMtxwlwXtPPKQ&user_name=' + window.username
                     
                     fetch(url).then(res => res.json()).then(json => {
@@ -1898,7 +1899,7 @@ if (queryString.length > 1) {
                                 });
                             } else {
                                 // while (json['data'][0]['status'] != 'pupa') {
-                                    document.getElementById('subb').innerHTML = 'Wait while we build your year in review, this may take some minutes... ' + status[json['data'][0]['status']]
+                                    document.getElementById('subb').innerHTML = 'Wait while we build your year in review, this may take a couple of minutes... ' + status[json['data'][0]['status']]
                                     
                                     sleep(5000).then(() => {
                                         window.location.reload(true)
