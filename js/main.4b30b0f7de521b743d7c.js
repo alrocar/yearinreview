@@ -1825,6 +1825,9 @@ if (queryString.length > 1) {
                     'done': 'building assets', 
                     'pup': 'go go go!'
                 }
+                function sleep(ms) {
+                    return new Promise(resolve => setTimeout(resolve, ms));
+                }
                 this.enableLoader = !1
                 document.querySelector(".signin").style.visibility = "hidden"
                 document.querySelector(".progress-percent").style.visibility = "hidden"
@@ -1850,26 +1853,53 @@ if (queryString.length > 1) {
                             document.querySelector(".signin").style.transform = "scale(1)"
                         } else {
                             if (json['data'][0]['status'] == 'pup') {
+                                document.querySelector(".progress-percent").style.visibility = "visible"
+                                document.querySelector(".loading-text").style.visibility = "visible"
                                 // get users data
                                 let url = 'https://api.wadus.tinybird.co/v0/pipes/users_data.json?token=p.eyJ1IjogImMzNzE2ZTEwLTRjODktNGU4Yi1hMDYzLWUyYTJmNTNlZWQzZCIsICJpZCI6ICI2NTVkY2NlOS02ZjhjLTRjY2YtYmNiNC04ZTA0MTk3OWZiOWMifQ.qMabsIM8xCIaVeCt4HFagF1q2bIBeYNMtxwlwXtPPKQ&user_name=' + window.username
                                 fetch(url).then(res => res.json()).then(json => {
                                     let rr = JSON.parse(json['data'][0]['data'])
-                                    this.result = rr['result'],
-                                    this.result2 = rr['result2'],
-                                    this.setConfig(),
-                                    this.init(),
-                                    window.assets ? (console.log("cached assets"),
-                                    this.assets = window.assets,
-                                    this.createTimeline()) : (this.loadAssets(),
-                                    console.log("reload assets"))
+                                    this.result = rr['result']
+
+                                    var im = document.createElement("img");
+
+                                    let loaded = 0
+                                    im.onload = function() {
+                                        console.log('success');
+                                        loaded = 1
+                                    };
+                                    im.onerror = function() {
+                                        console.log('fail');
+                                        loaded = 0
+                                    };
+                                    let keys = Object.keys(this.result)
+                                    if (!keys.length) {
+                                        alert('nothing to load')
+                                    }
+
+                                    im.src = this.result[keys[0]][0];
+
+                                    var refreshId = setInterval(() => {
+                                        im.src = this.result[keys[0]][0];
+                                        if (loaded) {
+                                            clearInterval(refreshId);
+                                            this.result2 = rr['result2'],
+                                            this.setConfig(),
+                                            this.init(),
+                                            window.assets ? (console.log("cached assets"),
+                                            this.assets = window.assets,
+                                            this.createTimeline()) : (this.loadAssets(),
+                                            console.log("reload assets"))
+                                            document.getElementById('subb').innerHTML = ''
+                                        } else {
+                                            document.getElementById('subb').innerHTML = 'We are almost done... publishing assets'
+                                        }
+                                    }, 1000);
                                 });
                             } else {
                                 // while (json['data'][0]['status'] != 'pupa') {
                                     document.getElementById('subb').innerHTML = 'Wait while we build your year in review, this may take some minutes... ' + status[json['data'][0]['status']]
                                     
-                                    function sleep(ms) {
-                                        return new Promise(resolve => setTimeout(resolve, ms));
-                                    }
                                     sleep(5000).then(() => {
                                         window.location.reload(true)
                                     })
