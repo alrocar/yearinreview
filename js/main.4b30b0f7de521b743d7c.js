@@ -598,7 +598,7 @@ if (queryString.length > 1) {
                 key: "createImageTexture",
                 value: function(e, t, o, i) {
                     var n = this;
-                    var aaa = this.isMobile ? 1.1 : 2
+                    var aaa = this.isMobile ? 1.1 : 1.8
                     if (i)
                         e.size = new Y.a(e.image.width / aaa,e.image.height / aaa),
                         e.needsUpdate = !0,
