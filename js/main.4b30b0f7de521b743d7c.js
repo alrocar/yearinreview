@@ -598,8 +598,9 @@ if (queryString.length > 1) {
                 key: "createImageTexture",
                 value: function(e, t, o, i) {
                     var n = this;
+                    var aaa = this.isMobile ? 1.1 : 2
                     if (i)
-                        e.size = new Y.a(e.image.width / 2,e.image.height / 2),
+                        e.size = new Y.a(e.image.width / aaa,e.image.height / aaa),
                         e.needsUpdate = !0,
                         this.renderer.setTexture2D(e, 0),
                         e.name = "".concat(t, "/").concat(o),
@@ -610,7 +611,7 @@ if (queryString.length > 1) {
                         i(e);
                     else {
                         var a = new Z.a().load("assets/".concat(t, "/").concat(o), function(e) {
-                            e.size = new Y.a(e.image.width / 2,e.image.height / 2),
+                            e.size = new Y.a(e.image.width / aaa,e.image.height / aaa),
                             e.needsUpdate = !0,
                             n.renderer.setTexture2D(e, 0)
                         });
@@ -743,7 +744,7 @@ if (queryString.length > 1) {
                     if (("" !== this.data.caption || "" !== this.data.link) && "" !== this.data.caption) {
                         var e = new N.a(this.data.caption,{
                             font: this.timeline.assets.fonts["undefined"],
-                            size: 18,
+                            size: 14,
                             height: 0,
                             curveSegments: 4
                         }).center();
@@ -800,7 +801,7 @@ if (queryString.length > 1) {
                     this.add(t);
                     var o = new N.a("2021",{
                         font: this.timeline.assets.fonts["undefined"],
-                        size: 640,
+                        size: 400,
                         height: 0,
                         curveSegments: 15
                     }).center()
@@ -2110,7 +2111,7 @@ if (queryString.length > 1) {
                     this.linkGroup = new G.a;
                     var a = new N.a("SEE MORE",{
                         font: this.assets.fonts["undefined"],
-                        size: 6,
+                        size: this.c.isMobile ? 20 : 12,
                         height: 0,
                         curveSegments: 4
                     }).center();
@@ -2156,7 +2157,7 @@ if (queryString.length > 1) {
                             ease: "Expo.easeInOut"
                         })
                     } catch (e) {
-                        
+
                     }
                     
                 }
